@@ -46,7 +46,7 @@ paascloud:
   aliyun:
     rocketMq:
       enable: true
-      reliableMessageConsumer: false
+      reliableMessageConsumer: true
       reliableMessageProducer: true
       instanceName: mallcloud-provider-uac
       consumerGroup: CID_UAC
